@@ -38,9 +38,9 @@ This algorithm uses the number of hours played as the basis for making game reco
 The logic of this algorithm is implemented in the play_recommend(game_hours) function. This function is called with a list of tuples as an argument. Each tuple contains the
 name of a game and the number of hours played. For example a typical function call would be as
 follows:
-# Recommend based on play hours of "Counter-Strike" and "DoA"
+
 rec = play_recommend([("Counter-Strike", 100.0), ("DoA", 52.5)])
-# Recommend based on play hours of "Counter-Strike" only
+
 rec = play_recommend([("Counter-Strike", 100.0), ("DoA", 52.5)])
 
 The algorithm proceeds as follows:
